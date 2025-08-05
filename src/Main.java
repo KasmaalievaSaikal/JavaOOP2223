@@ -103,6 +103,8 @@ public class Main {
 
       System.out.println("Uch burchtuktun aianty: ");
 
+        System.out.println("Saikal");
+
       triangle.area();
 
 
