@@ -1,4 +1,6 @@
- public class Phone {
+package oop;
+
+public class Phone {
     String brand ;
     String model ;
     int memory ;
@@ -9,7 +11,7 @@
 
 
     public void method() {
-        System.out.println("Phone call... ");
+        System.out.println("lessonTask.Phone call... ");
     }
 
         public void getInfo(){

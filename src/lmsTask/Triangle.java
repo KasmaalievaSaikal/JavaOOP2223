@@ -1,3 +1,5 @@
+package lmsTask;
+
 public class Triangle {
     int a;
     int b;

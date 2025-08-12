@@ -1,3 +1,5 @@
+package oop;
+
 public class Passport {
 
     Long id;

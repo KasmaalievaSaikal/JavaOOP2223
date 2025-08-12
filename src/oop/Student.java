@@ -1,3 +1,5 @@
+package oop;
+
 public class Student {
     String name;
     int age;
@@ -5,7 +7,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "lessonTask.Student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", group='" + group + '\'' +
