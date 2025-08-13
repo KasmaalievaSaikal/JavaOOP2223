@@ -113,7 +113,7 @@ public class Customer {
             }
         }
 
-        System.out.println(index);
+
 
 
         Customer[] newCustomers = new Customer[customers.length - 1];
