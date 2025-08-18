@@ -62,50 +62,50 @@ public class Main {
 //    }
 
 
-        Founder founder = new Founder();
-        Scanner scannerForNumber = new Scanner(System.in);
-        Scanner scannerForString = new Scanner(System.in);
-        Founder founder1 = new Founder();
-        System.out.println("Write id: ");
-        founder1.setId(scannerForNumber.nextLong());
-        System.out.println("Write full name: ");
-        founder1.setFullName(scannerForString.nextLine());
-        System.out.println("Write founder company: ");
-        founder1.setFounderCompany(scannerForString.nextLine());
-        System.out.println("Write date of foundation: ");
-        founder1.setDateOfFoundation(LocalDate.of(scannerForNumber.nextInt(),scannerForNumber.nextInt(),scannerForNumber.nextInt()));
-        System.out.println("Write address: ");
-        founder1.setAddress(scannerForString.nextLine());
-
-        Founder founder2 = new Founder();
-        System.out.println("Write id 2: ");
-        founder1.setId(scannerForNumber.nextLong());
-        System.out.println("Write full name 2: ");
-        founder1.setFullName(scannerForString.nextLine());
-        System.out.println("Write founder company 2: ");
-        founder1.setFounderCompany(scannerForString.nextLine());
-        System.out.println("Write date of foundation 2: ");
-        founder1.setDateOfFoundation(LocalDate.of(scannerForNumber.nextInt(),scannerForNumber.nextInt(),scannerForNumber.nextInt()));
-        System.out.println("Write address 2: ");
-        founder1.setAddress(scannerForString.nextLine());
-
-        Founder founder3 = new Founder();
-        System.out.println("Write id 3: ");
-        founder1.setId(scannerForNumber.nextLong());
-        System.out.println("Write full name 3: ");
-        founder1.setFullName(scannerForString.nextLine());
-        System.out.println("Write founder company 3: ");
-        founder1.setFounderCompany(scannerForString.nextLine());
-        System.out.println("Write date of foundation 3: ");
-        founder1.setDateOfFoundation(LocalDate.of(scannerForNumber.nextInt(),scannerForNumber.nextInt(),scannerForNumber.nextInt()));
-        System.out.println("Write address 3: ");
-        founder1.setAddress(scannerForString.nextLine());
-
-        founder.creatFounder(founder1);
-        founder.creatFounder(founder2);
-        founder.creatFounder(founder3);
-
-        founder.getAllFounder();
+//        Founder founder = new Founder();
+//        Scanner scannerForNumber = new Scanner(System.in);
+//        Scanner scannerForString = new Scanner(System.in);
+//        Founder founder1 = new Founder();
+//        System.out.println("Write id: ");
+//        founder1.setId(scannerForNumber.nextLong());
+//        System.out.println("Write full name: ");
+//        founder1.setFullName(scannerForString.nextLine());
+//        System.out.println("Write founder company: ");
+//        founder1.setFounderCompany(scannerForString.nextLine());
+//        System.out.println("Write date of foundation: ");
+//        founder1.setDateOfFoundation(LocalDate.of(scannerForNumber.nextInt(),scannerForNumber.nextInt(),scannerForNumber.nextInt()));
+//        System.out.println("Write address: ");
+//        founder1.setAddress(scannerForString.nextLine());
+//
+//        Founder founder2 = new Founder();
+//        System.out.println("Write id 2: ");
+//        founder1.setId(scannerForNumber.nextLong());
+//        System.out.println("Write full name 2: ");
+//        founder1.setFullName(scannerForString.nextLine());
+//        System.out.println("Write founder company 2: ");
+//        founder1.setFounderCompany(scannerForString.nextLine());
+//        System.out.println("Write date of foundation 2: ");
+//        founder1.setDateOfFoundation(LocalDate.of(scannerForNumber.nextInt(),scannerForNumber.nextInt(),scannerForNumber.nextInt()));
+//        System.out.println("Write address 2: ");
+//        founder1.setAddress(scannerForString.nextLine());
+//
+//        Founder founder3 = new Founder();
+//        System.out.println("Write id 3: ");
+//        founder1.setId(scannerForNumber.nextLong());
+//        System.out.println("Write full name 3: ");
+//        founder1.setFullName(scannerForString.nextLine());
+//        System.out.println("Write founder company 3: ");
+//        founder1.setFounderCompany(scannerForString.nextLine());
+//        System.out.println("Write date of foundation 3: ");
+//        founder1.setDateOfFoundation(LocalDate.of(scannerForNumber.nextInt(),scannerForNumber.nextInt(),scannerForNumber.nextInt()));
+//        System.out.println("Write address 3: ");
+//        founder1.setAddress(scannerForString.nextLine());
+//
+//        founder.creatFounder(founder1);
+//        founder.creatFounder(founder2);
+//        founder.creatFounder(founder3);
+//
+//        founder.getAllFounder();
 
 
 
