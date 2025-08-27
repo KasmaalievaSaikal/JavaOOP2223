@@ -4,7 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Region.regionInfo();
+//        Region.regionInfo();
+
+        JumaKundor.jumaKundor();
 
     }
 }
